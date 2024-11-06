@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/2/3cb60b984fbd46b5bd264f9536c31b68/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '2'
+lifecycle_stage: active
+name: ''
+run_id: 3cb60b984fbd46b5bd264f9536c31b68
+run_uuid: 3cb60b984fbd46b5bd264f9536c31b68
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730716754926
+status: 1
+tags: []
+user_id: cedric-omeryapo
