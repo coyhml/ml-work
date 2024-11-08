@@ -1,6 +1,17 @@
 # ml-work
 ML Work for energy prediction
 
+Requirements: 
+    numpy version: 1.26.4
+    pandas version: 2.2.2
+    optuna version: 4.0.0
+    scikit-learn version: 1.5.1
+    seaborn version: 0.13.2
+    mlflow version: 1.2.0
+    kaggle version: 0.2.7
+    os version: posix
+
+
 Estimation du Prix de l'Électricité en Espagne
 Ce projet utilise un modèle de machine learning pour estimer le prix de l’électricité en Espagne en fonction de l’offre et de la demande. Le modèle prend en compte plusieurs caractéristiques (features) et est optimisé pour fournir des prédictions précises du prix en utilisant des données historiques.
 
@@ -26,6 +37,26 @@ L'objectif principal de ce projet est de développer un modèle prédictif c
 apable d’estimer le prix réel de l'électricité en Espagne en fonction de diverses caractéristiques. 
 Ce modèle est optimisé pour fournir des prévisions fiables en utilisant des techniques avancées 
 de machine learning et d’optimisation des hyperparamètres (Optuna).
+
+Dataset description: 
+
+baseline : 
+Mean Price Per KW/h Baseline Pred: 57.912637711864406
+-------------------------------------------------------------------
+RMSE: 14.173160623162811
+RMSE:  7.61
+R2:  0.76
+mape:  0.11
+
+Resultats finale:
+Mean Price Per KW/h Pred: 57.83611369000541
+-------------------------------------------------------------------
+RMSE: 4.932829257705223
+
+RMSE:  4.93
+R2:  0.99
+mape:  0.07
+
 
 Structure du Code
 Pré-traitement des données:
